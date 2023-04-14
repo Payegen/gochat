@@ -1,0 +1,13 @@
+[GIN-debug] GET    /ping                     --> gochat/service.GetIndex (3 handlers)
+[GIN-debug] GET    /index                    --> gochat/service.GetHtml (3 handlers)
+[GIN-debug] POST   /upload                   --> gochat/service.UpLoadFile (3 handlers)
+[GIN-debug] GET    /sendmsg                  --> gochat/service.GetWscon (3 handlers)
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index2.html
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
